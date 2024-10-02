@@ -32,10 +32,11 @@ app.use(cors());
 
 const locationRoute = require('./api/routes/location.route')
 app.use("/v1/api/location",locationRoute)
-
+app.get('/',(req,res) => res.send("cupng dang bu"))
 // Kiểm tra nếu process.env.PORT không tồn tại thì sử dụng port 3000 mặc định
 const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
+    
 });
