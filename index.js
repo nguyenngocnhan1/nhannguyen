@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 // Sử dụng biến môi trường để quản lý kết nối MongoD
-const MONGODB_URL='mongodb+srv://vanthien562004:vanthien562004@cluster0.pizki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const MONGODB_URL='mongodb+srv://nhan123:nhan123@cluster0.v9orl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 
 // Sử dụng async/await để kết nối MongoDB
